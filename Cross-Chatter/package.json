@@ -1,0 +1,20 @@
+{
+  "name": "cross-chatter",
+  "version": "3.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "eris": "github:abalabahaha/eris#dev"
+  },
+  "devDependencies": {
+    "@axonteam/eslint-config": "^2.2.1",
+    "eslint": "^6.8.0"
+  },
+  "optionalDependencies": {
+    "pm2": "^3.5.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "pm2start": "pm2 start index.js"
+  }
+}
